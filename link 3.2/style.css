@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+.contener{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.row:before, .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+[class*="col-"] {
+    float: left;
+    min-height: 1px;
+    padding: 10px;
+}
